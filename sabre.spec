@@ -26,8 +26,8 @@ more details.
 
 %description -l pl
 SABRE jest gr± pod Linuksa dla entuzjastów symulacji lotu. W tej
-chwili programi¶ci skupili siê na lotnictwie wojennym z czasów wojny
-w Korei, takich jak klasyczne pó³nocnoamerykañskie F-86 SabreJet, F-84
+chwili programi¶ci skupili siê na lotnictwie wojennym z czasów wojny w
+Korei, takich jak klasyczne pó³nocnoamerykañskie F-86 SabreJet, F-84
 ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
 8-bitowych svgalib, od 320x200 do 1024x768.
 
@@ -36,7 +36,7 @@ ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
 %patch0 -p1
 
 %build
-automake
+automake -a -c
 autoconf
 %configure
 %{__make}
