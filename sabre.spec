@@ -28,7 +28,7 @@ of playing speed. See the WHATSNEW document for more details.
 automake
 autoconf
 %configure
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
