@@ -2,7 +2,7 @@ Summary:	The SABRE Fighter Plane Simulator
 Summary(pl):	SABRE - symulator my¶liwca
 Name:		sabre
 Version:	0.2.3
-Release:	6
+Release:	5.1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://sabre.cobite.com/%{name}-%{version}.tar.gz
