@@ -43,10 +43,13 @@ ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} install prefix=$RPM_BUILD_ROOT%{_prefix}
 install -d $RPM_BUILD_ROOT%{_libdir}/sabre
+
+%{__make} install prefix=$RPM_BUILD_ROOT%{_prefix}
+
 cp -r lib scenarios doc $RPM_BUILD_ROOT%{_libdir}/sabre
-install -m 755 RunSabre $RPM_BUILD_ROOT%{_bindir}
+install RunSabre $RPM_BUILD_ROOT%{_bindir}
+
 find $RPM_BUILD_ROOT%{_libdir}/sabre -name "Makefile*" -exec rm -f {} \;
 
 %clean
