@@ -40,7 +40,6 @@ install -d $RPM_BUILD_ROOT%{_libdir}/sabre
 cp -r lib scenarios doc $RPM_BUILD_ROOT%{_libdir}/sabre
 install -m 755 RunSabre $RPM_BUILD_ROOT%{_bindir}
 find $RPM_BUILD_ROOT%{_libdir}/sabre -name "Makefile*" -exec rm -f {} \;
-strip $RPM_BUILD_ROOT%{_bindir}/sabre
 
 %clean
 rm -rf $RPM_BUILD_ROOT
