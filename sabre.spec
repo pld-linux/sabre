@@ -5,8 +5,6 @@ Version:	0.2.3
 Release:	6
 License:	GPL
 Group:		Applications/Games
-Group(de):	Applikationen/Spiele
-Group(pl):	Aplikacje/Gry
 Source0:	http://sabre.cobite.com/%{name}-%{version}.tar.gz
 URL:		http://sabre.cobite.com/
 Patch0:		%{name}-redhat.patch
