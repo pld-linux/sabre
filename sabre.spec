@@ -8,11 +8,11 @@ Group:		Applications/Games
 Source0:	http://sabre.cobite.com/%{name}-%{version}.tar.gz
 URL:		http://sabre.cobite.com/
 Patch0:		%{name}-redhat.patch
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-ExclusiveArch:	%{ix86}
-BuildRequires:	svgalib-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	svgalib-devel
+ExclusiveArch:	%{ix86} alpha
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 SABRE is an on-going game developed for Linux, worked on as a labor of
