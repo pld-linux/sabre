@@ -7,7 +7,7 @@ Group:		Amusements/Games
 Source:		http://sabre.cobite.com/%{name}-%{version}.tar.gz
 URL:		http://sabre.cobite.com/
 Patch0:		sabre-redhat.patch
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExclusiveArch:	%ix86
 BuildRequires:	svgalib-devel
 
