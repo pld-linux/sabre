@@ -6,6 +6,7 @@ Release:	6
 License:	GPL
 Group:		Applications/Games
 Source0:	http://sabre.cobite.com/%{name}-%{version}.tar.gz
+# Source0-md5:	a4f6a710b2e14bc487b08bec9def95f8
 URL:		http://sabre.cobite.com/
 Patch0:		%{name}-redhat.patch
 BuildRequires:	autoconf
