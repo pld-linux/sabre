@@ -32,7 +32,7 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install prefix=$RPM_BUILD_ROOT/usr
+%{__make} install prefix=$RPM_BUILD_ROOT/usr
 install -d $RPM_BUILD_ROOT/usr/lib/sabre
 cp -r lib scenarios doc $RPM_BUILD_ROOT/usr/lib/sabre
 install -m 755 RunSabre $RPM_BUILD_ROOT/usr/bin
