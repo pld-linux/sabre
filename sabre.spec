@@ -3,7 +3,7 @@ Name:		sabre
 Version:	0.2.3
 Release:	6
 License:	GPL
-Group:		Amusements/Games
+Group:		Games
 Source:		http://sabre.cobite.com/%{name}-%{version}.tar.gz
 URL:		http://sabre.cobite.com/
 Patch0:		sabre-redhat.patch
