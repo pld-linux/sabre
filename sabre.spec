@@ -36,8 +36,8 @@ ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
 %patch0 -p1
 
 %build
-automake -a -c -f
-autoconf
+%{__automake}
+%{__autoconf}
 %configure
 %{__make}
 
