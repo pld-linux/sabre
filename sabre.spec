@@ -1,4 +1,5 @@
-Summary:	The SABRE Fighter Plane Simulator.
+Summary:	The SABRE Fighter Plane Simulator
+Summary(pl):	SABRE - symulator my¶liwca
 Name:		sabre
 Version:	0.2.3
 Release:	6
@@ -10,8 +11,10 @@ Source0:	http://sabre.cobite.com/%{name}-%{version}.tar.gz
 URL:		http://sabre.cobite.com/
 Patch0:		%{name}-redhat.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-ExclusiveArch:	%ix86
+ExclusiveArch:	%{ix86}
 BuildRequires:	svgalib-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
 
 %description
 SABRE is an on-going game developed for Linux, worked on as a labor of
@@ -22,6 +25,13 @@ and the Yak-9. SABRE can run in any svgalib 8 bit color mode, from 320
 x 200 to 1024 x 768. Using a window, higher resolutions can be
 selected without loss of playing speed. See the WHATSNEW document for
 more details.
+
+%description -l pl
+SABRE jest gr± pod Linuksa dla entuzjastów symulacji lotu. W tej
+chwili programi¶ci skupili siê na lotnictwie wojennym z czasów wojny
+w Korei, takich jak klasyczne pó³nocnoamerykañskie F-86 SabreJet, F-84
+ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
+8-bitowych svgalib, od 320x200 do 1024x768.
 
 %prep
 %setup -q
