@@ -12,7 +12,6 @@ Patch0:		%{name}-redhat.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	svgalib-devel
-ExclusiveArch:	%{ix86} alpha
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -46,7 +45,8 @@ ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/sabre
 
-%{__make} install prefix=$RPM_BUILD_ROOT%{_prefix}
+%{__make} install \
+	prefix=$RPM_BUILD_ROOT%{_prefix}
 
 cp -r lib scenarios doc $RPM_BUILD_ROOT%{_libdir}/sabre
 install RunSabre $RPM_BUILD_ROOT%{_bindir}
