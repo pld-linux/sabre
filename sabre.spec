@@ -1,5 +1,5 @@
 Summary:	The SABRE Fighter Plane Simulator
-Summary(pl.UTF-8):   SABRE - symulator myśliwca
+Summary(pl.UTF-8):	SABRE - symulator myśliwca
 Name:		sabre
 Version:	0.2.3
 Release:	5.1
