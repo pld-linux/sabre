@@ -1,5 +1,5 @@
 Summary:	The SABRE Fighter Plane Simulator
-Summary(pl):	SABRE - symulator my¶liwca
+Summary(pl.UTF-8):   SABRE - symulator myÅ›liwca
 Name:		sabre
 Version:	0.2.3
 Release:	5.1
@@ -24,11 +24,11 @@ x 200 to 1024 x 768. Using a window, higher resolutions can be
 selected without loss of playing speed. See the WHATSNEW document for
 more details.
 
-%description -l pl
-SABRE jest gr± pod Linuksa dla entuzjastów symulacji lotu. W tej
-chwili programi¶ci skupili siê na lotnictwie wojennym z czasów wojny w
-Korei, takich jak klasyczne pó³nocnoamerykañskie F-86 SabreJet, F-84
-ThunderJet, F-51 Mustang i Yak-9. SABRE mo¿e dzia³aæ w trybach
+%description -l pl.UTF-8
+SABRE jest grÄ… pod Linuksa dla entuzjastÃ³w symulacji lotu. W tej
+chwili programiÅ›ci skupili siÄ™ na lotnictwie wojennym z czasÃ³w wojny w
+Korei, takich jak klasyczne pÃ³Å‚nocnoamerykaÅ„skie F-86 SabreJet, F-84
+ThunderJet, F-51 Mustang i Yak-9. SABRE moÅ¼e dziaÅ‚aÄ‡ w trybach
 8-bitowych svgalib, od 320x200 do 1024x768.
 
 %prep
